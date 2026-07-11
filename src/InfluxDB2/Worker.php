@@ -55,7 +55,7 @@ class Worker
 
                 if ($index === null) {
                     $data[] = array('key' => $key, 'data' => array());
-                    $index = array_keys($data)[count($data)-1];
+                    $index = array_keys($data)[count($data) - 1];
                 }
 
                 $data[$index]['data'][] = $item->data;

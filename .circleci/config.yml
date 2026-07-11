@@ -86,7 +86,7 @@ jobs:
     parameters:
       php-image:
         type: string
-        default: &default-php-image "cimg/php:8.5"
+        default: &default-php-image "cimg/php:8.0"
       influxdb-image:
         type: string
         default: &default-influxdb-image "influxdb:latest"
@@ -157,8 +157,8 @@ jobs:
       - checkout
       - run: |
           mkdir -p tools/php-cs-fixer
-          composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer:2.18.7
-          tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --dry-run --verbose --show-progress=estimating --using-cache=no --diff
+          composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer:3.95.13
+          tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --dry-run --verbose --show-progress=dots --using-cache=no --diff
 
 workflows:
   version: 2

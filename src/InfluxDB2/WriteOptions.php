@@ -4,13 +4,13 @@ namespace InfluxDB2;
 
 class WriteOptions
 {
-    const DEFAULT_BATCH_SIZE = 10;
-    const DEFAULT_RETRY_INTERVAL = 5000;
-    const DEFAULT_MAX_RETRIES = 5;
-    const DEFAULT_MAX_RETRY_DELAY = 125000;
-    const DEFAULT_MAX_RETRY_TIME = 180000;
-    const DEFAULT_EXPONENTIAL_BASE = 2;
-    const DEFAULT_JITTER_INTERVAL = 0;
+    public const DEFAULT_BATCH_SIZE = 10;
+    public const DEFAULT_RETRY_INTERVAL = 5000;
+    public const DEFAULT_MAX_RETRIES = 5;
+    public const DEFAULT_MAX_RETRY_DELAY = 125000;
+    public const DEFAULT_MAX_RETRY_TIME = 180000;
+    public const DEFAULT_EXPONENTIAL_BASE = 2;
+    public const DEFAULT_JITTER_INTERVAL = 0;
 
     public $writeType;
     public $batchSize;

@@ -266,7 +266,7 @@ class WriteApiTest extends BasicTest
     public function testRetryCount()
     {
         $this->mockHandler->append(
-        // regular call
+            // regular call
             new Response(429),
             // retry
             new Response(429),
@@ -298,7 +298,7 @@ class WriteApiTest extends BasicTest
     public function testRetryMaxTime()
     {
         $this->mockHandler->append(
-        // regular call
+            // regular call
             new Response(429),
             // retry
             new Response(429),

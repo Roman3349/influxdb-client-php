@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Shows how to create, list and delete Buckets
  */

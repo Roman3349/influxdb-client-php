@@ -1,6 +1,5 @@
 <?php
 
-
 namespace InfluxDB2;
 
 use ArrayAccess;

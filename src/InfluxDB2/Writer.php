@@ -1,11 +1,9 @@
 <?php
 
-
 namespace InfluxDB2;
 
 interface Writer
 {
-
     /**
      * Write data
      *
