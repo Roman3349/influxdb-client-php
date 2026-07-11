@@ -2,7 +2,7 @@
 
 namespace InfluxDB2Test;
 
-class StringableClass
+class StringableClass implements \Stringable
 {
     public function __toString()
     {
