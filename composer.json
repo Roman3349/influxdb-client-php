@@ -7,10 +7,11 @@
   "homepage": "https://www.github.com/influxdata/influxdb-client-php",
   "license": "MIT",
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.0",
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
+    "ext-sockets": "*",
     "php-http/client-common": "^2.2.1",
     "php-http/discovery": "^1.9.1",
     "psr/http-client": "^1.0.1"
