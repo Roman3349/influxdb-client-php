@@ -1,5 +1,8 @@
 ## 3.9.0 [unreleased]
 
+### Bug Fixes
+1. [#170](https://github.com/influxdata/influxdb-client-php/pull/170): Fix PHP 8.5 deprecations. PHP minimum version is PHP 8.0.
+
 ### Others
 
 1. [#171](https://github.com/influxdata/influxdb-client-php/pull/171): Bring CI pipeline up to date.
